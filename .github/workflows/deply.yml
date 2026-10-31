@@ -27,6 +27,6 @@ jobs:
                 aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 961457613719.dkr.ecr.ap-south-1.amazonaws.com
                 docker tag devops-python-app:latest 961457613719.dkr.ecr.ap-south-1.amazonaws.com/devops-python-app:latest
                 docker images
-                docker push 61457613719.dkr.ecr.ap-south-1.amazonaws.com/devops-python-app:latest
+                docker push 961457613719.dkr.ecr.ap-south-1.amazonaws.com/devops-python-app:latest
 
 
